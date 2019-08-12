@@ -1,11 +1,15 @@
 import React from 'react'
-import Counter from './counter.js'
+import NavBar from './components/NavBar'
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Katalog</h1>
-    </div>
+    <React.Fragment>
+      <CssBaseline />
+      <div className="App">
+        <NavBar />
+      </div>  
+    </React.Fragment>
   )
 }
 
