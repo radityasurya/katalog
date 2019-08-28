@@ -1,11 +1,25 @@
-import React from 'react'
+import React, { Component } from 'react';
+import 'bulma/bulma';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Katalog</h1>
-    </div>
-  )
+class App extends Component {
+	constructor(props) {
+		super(props);
+	}
+
+	render() {
+		return (
+			<div className="App">
+				<section class="section">
+					<div class="container">
+						<h1 class="title">Katalog</h1>
+						<p class="subtitle">
+							Daftar produk untuk <strong>Dropship</strong>!
+						</p>
+					</div>
+				</section>
+			</div>
+		);
+	}
 }
 
-export default App
+export default App;
