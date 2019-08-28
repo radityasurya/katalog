@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import 'bulma/bulma';
+import './App.scss';
 
 class App extends Component {
 	constructor(props) {
@@ -15,6 +16,14 @@ class App extends Component {
 						<p class="subtitle">
 							Daftar produk untuk <strong>Dropship</strong>!
 						</p>
+						<div class="field">
+							<div class="control">
+								<input class="input" type="text" placeholder="Masukkan judul produk..." />
+							</div>
+						</div>
+						<div class="buttons">
+							<a class="button is-link">Search</a>
+						</div>
 					</div>
 				</section>
 			</div>
